@@ -1,7 +1,65 @@
 
 Project 0
-Name:
-Username:
-Student Id:
+Name: yigit tufan
+Username: oyt2
+Student Id: 10001722
+1/15/2023
 
 Step 3. -------------------------------------------
+#include <string>
+using namespace std;
+
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    char last_name = 't';
+    double pi = 3.1415;
+    bool lie = 0;
+    long zero = 0;
+
+
+    return 0;
+}
+
+ Step 4. -------------------------------------------
+
+int main() {
+    unsigned BIG_NUMBER = 10000000;
+    char last_name = 't';
+    double pi = 3.1415;
+    bool lie = 0;
+    long zero = 0;
+
+    cout << &BIG_NUMBER << endl;
+    cout << &last_name << endl;
+    cout << &pi << endl;
+    cout << &lie << endl;
+    cout << &zero << endl;
+}
+
+ BIG_NUMBER 0x7ffc45c57bc4
+ last_name t
+ pi 0x7ffd8922e168
+ lie 0x7fff9794db92
+ zero 0x7ffe58111e58
+
+Step 5. --------------------------------------------
+
+int main() {
+    int number = 37;
+    cout << dec << number << endl;
+    cout << oct << number << endl;
+    cout << hex << number << endl
+    return 0;
+}
+number decimal 37
+number octal 45
+number hexadecimal 25
+
+ Step 6. -------------------------------------------
+
+int main() {
+    float listofthings[20] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 20};
+    cout << sizeof(listofthings) << endl;
+    return 0;
+}
+listofthings 80
